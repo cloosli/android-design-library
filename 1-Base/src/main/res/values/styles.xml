@@ -23,11 +23,6 @@
         <!-- Dark Indigo -->
         <item name="colorAccent">#00B0FF</item>
         <!-- Blue -->
-
-        <item name="android:textColorPrimary">#F9FBE7</item>
-
-        <!--<item name="android:windowBackground">#E8EAF6</item>-->
-        <!--<item name="android:navigationBarColor">#C5CAE9</item>-->
     </style>
     <style name="AppTheme" parent="AppTheme.Base"></style>
 </resources>
