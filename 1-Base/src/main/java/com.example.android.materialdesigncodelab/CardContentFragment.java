@@ -17,6 +17,7 @@
 package com.example.android.materialdesigncodelab;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.graphics.drawable.Drawable;
@@ -84,6 +85,14 @@ public class CardContentFragment extends Fragment {
                 public void onClick(View v) {
                     Snackbar.make(v, "Share article",
                             Snackbar.LENGTH_LONG).show();
+                }
+            });
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Context context = v.getContext();
+                    Intent intent = new Intent(context, DetailActivity.class);
+                    context.startActivity(intent);
                 }
             });
         }
