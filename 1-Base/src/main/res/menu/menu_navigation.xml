@@ -16,14 +16,17 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/menu_item_one"
             android:icon="@drawable/ic_home_black_24dp"
             android:tint="@color/button_grey"
             android:title="One" />
         <item
+            android:id="@+id/menu_item_two"
             android:icon="@drawable/ic_favorite_black_24dp"
             android:tint="@color/button_grey"
             android:title="Two" />
         <item
+            android:id="@+id/menu_item_three"
             android:icon="@drawable/ic_bookmark_border_black_24dp"
             android:tint="@color/button_grey"
             android:title="Three" />
